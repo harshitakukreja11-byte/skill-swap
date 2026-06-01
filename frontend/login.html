@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login - Skill Swap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Skill Swap</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="auth-card panel">
+      <h2>Welcome Back 💫</h2>
+
+      <form id="loginForm">
+        <label>Email</label>
+        <input id="email" class="input" type="email" placeholder="you@example.com" required />
+
+        <label>Password</label>
+        <input id="password" class="input" type="password" placeholder="Your password" required />
+
+        <button type="submit" style="margin-top:10px">Login</button>
+        <p class="small" style="margin-top:10px">Don't have an account? <a href="signup.html" style="color:var(--accent)">Sign up</a></p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Skill Swap</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>

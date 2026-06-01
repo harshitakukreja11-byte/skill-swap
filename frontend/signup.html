@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign Up - Skill Swap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Skill Swap</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="auth-card panel">
+      <h2>Create Account 💫</h2>
+
+      <form id="signupForm">
+        <label>Full name</label>
+        <input id="name" class="input" type="text" placeholder="Your name" required />
+
+        <label>Email</label>
+        <input id="email" class="input" type="email" placeholder="you@example.com" required />
+
+        <label>Password</label>
+        <input id="password" class="input" type="password" placeholder="Create password" required />
+
+        <div style="display:flex;gap:10px;">
+          <div style="flex:1">
+            <label>Can Teach</label>
+            <input id="canTeach" class="input" type="text" placeholder="e.g. HTML, C" />
+          </div>
+          <div style="flex:1">
+            <label>Want to Learn</label>
+            <input id="wantLearn" class="input" type="text" placeholder="e.g. Python, ML" />
+          </div>
+        </div>
+
+        <button type="submit" style="margin-top:10px">Sign Up</button>
+        <p class="small" style="margin-top:10px">Already have an account? <a href="login.html" style="color:var(--accent)">Login</a></p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Skill Swap</p>
+  </footer>
+
+  <script src="signup.js"></script>
+</body>
+</html>
